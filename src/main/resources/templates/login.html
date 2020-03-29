@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+</head>
+<body>
+
+<h2> 登录 </h2>
+<hr>
+
+
+<div th:each="user:${users}">
+
+    <span th:text="${user}"></span>
+
+</div>
+
+
+</body>
+</html>
